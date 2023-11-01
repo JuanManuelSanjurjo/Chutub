@@ -1,0 +1,15 @@
+export const categories = [
+    { name: 'New', class: "fi-xnsuxl-star-solid"},
+    { name: 'Coding', class: "fi-xnsuxl-code-solid" },
+    { name: 'ReactJS', class: "fi-xnsuxl-replit-old" },
+    { name: 'Music', class: "fi-xnsuxl-music-solid" },
+    { name: 'DRG', class: "fi-snslxl-minecraft-pickaxe" },
+    { name: 'Education', class: "fi-xtsuxl-graduation-cap-solid" },
+    { name: 'Podcast', class: "fi-xnsuxl-microphone-solid" },
+    { name: 'Anime', class: "fi-ctsuxl-robot" },
+    { name: 'Movie', class: "fi-xnsuxl-videocamera-solid" },
+    { name: 'Gaming', class: "fi-xnsuxl-gamepad-solid" },
+    { name: 'Live', class: "fi-xnsuxl-tv-vintage-solid"  },
+    { name: 'Sport', class: "fi-cnluxl-small" },
+    { name: 'Fashion', class: "fi-cnsuxl-user-tie-circle" },
+  ];
