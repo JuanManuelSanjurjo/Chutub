@@ -217,6 +217,7 @@ button[type="submit"]:hover{
 .videoCard:hover{
   backdrop-filter: opacity(0.5);
   box-shadow: 0px 0px 0 10px var(--darkGrey);
+  filter: drop-shadow(0px 0px 1px var(--beige) );
 }
 .videoCard img{
   width: 100%;

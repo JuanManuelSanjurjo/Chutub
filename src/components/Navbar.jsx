@@ -4,7 +4,7 @@ import SearchBar from "./SearchBar"
 function Navbar() {
   return (
     <div className='navBar'>
-      <Link to={"/"}>
+      <Link to={"/Chutub"}>
         <i className='favIcon fi-cnsxx2-play' ></i>
         <h2 className="logo">CHUTUB</h2>
       </Link>

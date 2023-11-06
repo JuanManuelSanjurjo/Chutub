@@ -13,7 +13,7 @@ function App() {
       <div className="mainContainer">
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Feed />} />
+          <Route path="/Chutub" exact element={<Feed />} />
           <Route path="/video/:id"  element={<VideoDetails />} />
           <Route path="/channel/:id"  element={<Channel />} />
           <Route path="/search/:searchTerm"  element={<SearchFeed />} />
