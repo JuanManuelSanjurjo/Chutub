@@ -13,7 +13,7 @@
 }
 
 html,body,#root {
-  height: 100%;
+  min-height: 100%;
   margin: 0;
   padding: 0 ;
   background-color: var(--black);
@@ -21,6 +21,7 @@ html,body,#root {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   scrollbar-color: var(--beige)  var(--darkGrey);
 }
+
 ::-webkit-scrollbar {
   width: 10px; /* Mostly for vertical scrollbars */
   height: 10px; /* Mostly for horizontal scrollbars */
@@ -63,7 +64,7 @@ a {
   align-items: center;
 } 
 .favIcon{
-  padding: 0 20px;
+  padding: 0 10px;
   color: var(--orangeRed);
   transition: 0.2s;
 }
@@ -138,6 +139,7 @@ button[type="submit"]:hover{
   border-right: 1px solid var(--darkGrey);
   display: flex;
   flex-direction: column;
+  z-index: 99;
 }
 .sidebar p{
   text-align: center;
@@ -171,6 +173,8 @@ button[type="submit"]:hover{
   color: var(--orangeRed);
   cursor: pointer;
   opacity: 0.9;
+  padding-left: 40px;
+  padding-right: 10px;
 }
 .selected{
   color: var(--beige);
@@ -277,6 +281,13 @@ button[type="submit"]:hover{
   .feedContainer{
     flex-direction: column;
   }
+  .sidebarContainer{
+    position: sticky;
+    top: 6vh;
+    z-index: 100;
+    overflow-x: scroll;
+
+  }
   .sidebar{
     flex-direction: row;
     overflow-x: scroll;
@@ -301,6 +312,22 @@ button[type="submit"]:hover{
   }
   .videoCard{
     width: 85vw;
+  }
+  .navBar{
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 15px;
+  }
+  .sidebarContainer{
+    position: sticky;
+    top:12vh ;
+  }
+  .searchContainer{
+    margin: auto;
+    width: 80%;
+  }
+  .searchContainer:hover{
+    width: 80%;
   }
 }
 
