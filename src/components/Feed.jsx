@@ -6,7 +6,7 @@ import { fetchFromAPI } from '../utils/fetchData'
 
 function Feed() {
   const [selectedCategory, setSelectedCategory] = useState("New")
-  const [videoList,setVideoList] = useState(null)
+  const [videoList, setVideoList] = useState(null)
 
   useEffect(()=>{
     setVideoList(null)

@@ -14,9 +14,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/Chutub" exact element={<Feed />} />
-          <Route path="/video/:id"  element={<VideoDetails />} />
-          <Route path="/channel/:id"  element={<Channel />} />
-          <Route path="/search/:searchTerm"  element={<SearchFeed />} />
+          <Route path="/Chutub/video/:id"  element={<VideoDetails />} />
+          <Route path="/Chutub/channel/:id"  element={<Channel />} />
+          <Route path="/Chutub/search/:searchTerm"  element={<SearchFeed />} />
         </Routes>
       </div>
 

@@ -319,20 +319,25 @@ button[type="submit"]:hover{
   }
   .navBar{
     flex-direction: column;
-    min-height: 120px;
-    /* padding-bottom: 1vh; */
+    height: 100px;
+    justify-content:center; 
   }
   .sidebarContainer{
     position: sticky;
-    top:120px ;
+    top: 100px ;
     /* transform: translateY(50%); */
   }
   .searchContainer{
     margin: auto;
     width: 80%;
+    margin-block: 0px;
   }
   .searchContainer:hover{
     width: 80%;
+
+  }
+  .logo{
+    margin-block: 10px;
   }
 }
 
