@@ -9,7 +9,7 @@ const customStyle = {
   scale: "1.2",
    marginTop: '-50px', 
    backgroundColor: "transparent", 
-   pointerEvents: "none" 
+   pointerEvents: "none",
 }
 
 
