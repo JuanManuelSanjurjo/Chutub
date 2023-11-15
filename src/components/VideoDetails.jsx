@@ -4,7 +4,7 @@ import { useParams, Link } from 'react-router-dom'
 import { fetchFromAPI } from '../utils/fetchData'
 import Loading from './Loading'
 import VideoList from './VideoList'
-import Comment from './comment'
+import Comment from './Comment'
 
 
 const customStyle = {
