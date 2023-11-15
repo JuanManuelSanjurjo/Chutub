@@ -312,14 +312,26 @@ button[type="submit"]:hover{
 .videoPageContaier{
   width: 100%;
   display: flex;
+  height: auto;
+  
+
 }
 .videoContainer{
   width: 100%;
+  flex: 1;
 }
 .videoContainer h2, .videoContainer p{
   padding-inline: 20px;
+  opacity: 0.8;
+  margin: 0;
+  padding: 10px 20px;
+}
+.videoContainer h2{
+  cursor: pointer;
+  padding-top: 20px ;
 
 }
+
 .player{
   height: 77vh !important;
   width: 100% !important;
@@ -346,10 +358,34 @@ button[type="submit"]:hover{
   text-align: center;
   font-size: 32px;
 }
+
+.commentDiv{
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 15px;
+  background-color: var(--darkGrey);
+  border-radius: 15px;
+  opacity: 0.8;
+}
+.commentDiv:hover{
+  filter: contrast(1.1);
+}
+.commentDiv h4 {
+  margin: 0;
+}
+
+
 /****************** MEDIA QUERIES ******************/
 @media (max-width: 1180px){
   .navBar{
     min-height: 50px;
+  }
+  .videoPageContaier{
+    flex-direction: column;
+  }
+  .feed{
+    flex-direction: row !important;
+    align-content: center;
   }
 
   .btnCategory{

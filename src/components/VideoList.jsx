@@ -1,13 +1,13 @@
-import PropTypes from "prop-types"
+/* eslint-disable react/prop-types */
 import VideoCard from "./VideoCard"
 import ChannelCard from "./ChannelCard"
 
-function VideoList({ videoList }) {
+function VideoList({ videoList, customStyle }) {
   
   if(!videoList?.length) return <h1>Loading...</h1>;
   
   return (
-    <div className="feed">
+    <div className="feed" style={customStyle}>
       { videoList.map((item, id) => 
       (
           <div key={id}>
@@ -20,8 +20,5 @@ function VideoList({ videoList }) {
   )
 }
 
-VideoList.propTypes = {
-  videoList: PropTypes.array
-}
 
 export default VideoList
