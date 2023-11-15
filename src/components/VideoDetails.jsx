@@ -28,7 +28,7 @@ function VideoDetails() {
       .then( data => setRelatedVideos(data.items) )
       .catch( e => console.error(e))  
 
-    fetchFromAPI(`commentThreads?part=snippet&videoId=${id}&maxResults=50`)
+    fetchFromAPI(`commentThreads?part=snippet&videoId=${id}&maxResults=100`)
     .then( data => setComments(data.items) )
     .catch( e => console.error(e))  
   },[id])
