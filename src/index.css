@@ -350,13 +350,15 @@ button[type="submit"]:hover{
 /* LOADING SCREEN*/
 .loading{
   background-color: var(--black);
-  width: 100%;
+  width: 95%;
+  overflow-x:hidden;
   height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   font-size: 32px;
+  animation: RGBdisplacement 1s ease-in-out infinite;
 }
 
 .commentDiv{
