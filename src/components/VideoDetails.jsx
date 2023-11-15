@@ -37,7 +37,7 @@ function VideoDetails() {
   
   if(!videoDetail?.snippet || !comments) return <Loading />       
    
-  const { snippet : {title,channelId, channelTitle},
+  const { snippet : {title,channelId, channelTitle, publishedAt},
   statistics: {viewCount , likeCount}} = videoDetail
 
 
@@ -48,7 +48,7 @@ function VideoDetails() {
           <h2>{title}</h2>
         <div className='videoDetail'>
           <Link to={ channelId ? `/Chutub/channel/${channelId}` : "Channel Title"} >
-            <p>{channelTitle }</p>
+            <p>{channelTitle + " - uploaded: " + publishedAt?.replaceAll("-","/").replace("T"," ").replace("Z","").split(" ").join(" - ")}</p>
           </Link> 
           <div className='likesAndViewsContainer'>
             <p>{parseInt(viewCount).toLocaleString() + " views"}</p>
