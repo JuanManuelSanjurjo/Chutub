@@ -10,6 +10,6 @@ In summary, this project showcases responsive design, interactive web applicatio
 
 ![image](https://github.com/JuanManuelSanjurjo/Chutub/assets/57844658/a033d44f-77e5-4d6a-9274-1a693b0daec7)
 
-![image](https://github.com/JuanManuelSanjurjo/Chutub/assets/57844658/317b7f3c-f4a2-466b-a5df-0f6065fe6003)
+![image](https://github.com/JuanManuelSanjurjo/Chutub/assets/57844658/da96b453-656d-4cc3-a15a-d7771043085f)
 
 ![image](https://github.com/JuanManuelSanjurjo/Chutub/assets/57844658/862bd44f-04f0-4fc5-91a2-463b99e03ba3)
