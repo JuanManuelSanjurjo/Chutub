@@ -62,14 +62,21 @@ a {
 .navBar a{
   display: flex;
   align-items: center;
+  padding-left:  20px;
 } 
 .favIcon{
-  padding: 0 10px;
-  color: var(--orangeRed);
   transition: 0.2s;
+  height: 35px;
+  width: auto;
+  padding:  8px;
+  border-radius: 100%;
+  background-color:  var(--orangeRed) ;
 }
 .favIcon:hover{
-  color: var(--beige);
+  background-color: var(--beige);
+}
+.navBar:hover img{
+  background-color: var(--beige);
 }
 .logo{
   margin-left: 10px;
@@ -169,12 +176,23 @@ button[type="submit"]:hover{
 }
 .btnCategory:hover{
   background: var(--beige) ;
-  color: var(--darkBlue);
   color: var(--orangeRed);
   cursor: pointer;
   opacity: 0.9;
   padding-left: 40px;
   padding-right: 10px;
+}
+.btnCategory img{
+  height: 22px;
+  width: auto;
+  padding:  3px;
+  border-radius: 100%;
+  background-color:  var(--beige) ;
+  opacity: 0.8;
+}
+
+.btnCategory:hover img{
+  background-color:  var(--orangeRed) ;
 }
 .selected{
   color: var(--beige);
@@ -233,6 +251,7 @@ button[type="submit"]:hover{
 .videoCard:hover img{
   border-radius:  15px;
 }
+
 .videoCardInfo > *, .videoCardInfo a p{
   max-width: 90%;
   white-space: nowrap;

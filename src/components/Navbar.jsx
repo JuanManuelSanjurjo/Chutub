@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className='navBar'>
       <Link to={"/Chutub"}>
-        <i className='favIcon fi-cnsxx2-play' ></i>
+        <img src="./src/assets/player-skip-forward.png" className='favIcon' ></img>
         <h2 className="logo">CHUTUB</h2>
       </Link>
       <SearchBar />

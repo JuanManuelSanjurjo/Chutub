@@ -7,7 +7,7 @@ function Sidebar({selectedCategory, setSelectedCategory}) {
       {categories.map(cat => (
         <button className={cat.name === selectedCategory ? "selected btnCategory": "btnCategory"}  key={cat.name}
             onClick={()=> setSelectedCategory(cat.name)}>
-            <i className={`catIcon  ${cat.class}` }></i>
+            <img src={cat.src} alt={cat.name} className={`catIcon`}></img>
             <span>{cat.name}</span>
         </button>
       ))}
