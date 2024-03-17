@@ -404,14 +404,14 @@ button[type="submit"]:hover{
     position: sticky;
     top: 50px;
     z-index: 100;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 
   }
   .sidebar{
     flex-direction: row;
-    overflow-x: scroll;
     scroll-snap-type: x mandatory;
     height: 50px;
+    overflow-x: scroll;
   }
   .sidebar p:last-child{
     display: none;
