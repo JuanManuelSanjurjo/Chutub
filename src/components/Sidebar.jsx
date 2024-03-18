@@ -4,8 +4,8 @@ function Sidebar({selectedCategory, setSelectedCategory}) {
 
   return (
     <div className="sidebar">
-      {categories.map(cat => (
-        <button className={cat.name === selectedCategory ? "selected btnCategory": "btnCategory"}  key={cat.name}
+      {categories.map((cat, i) => (
+        <button key={i} className={cat.name === selectedCategory ? "selected btnCategory": "btnCategory"}  key={cat.name}
             onClick={()=> setSelectedCategory(cat.name)}>
             <img src={cat.src} alt={cat.name} className={`catIcon`}></img>
             <span>{cat.name}</span>
