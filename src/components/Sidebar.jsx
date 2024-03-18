@@ -11,7 +11,7 @@ function Sidebar({selectedCategory, setSelectedCategory}) {
             <span>{cat.name}</span>
         </button>
       ))}
-      <p>Copyright JMS 2023 </p>
+      <p>Copyright JMS {new Date().getFullYear().toString()} </p>
     </div>
   )
 }
