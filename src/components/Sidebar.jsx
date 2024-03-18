@@ -10,7 +10,15 @@ function Sidebar({selectedCategory, setSelectedCategory}) {
             <img src={cat.src} alt={cat.name} className={`catIcon`}></img>
             <span>{cat.name}</span>
         </button>
+
       ))}
+      <button  className={"Anime" === selectedCategory ? "selected btnCategory": "btnCategory"} 
+            onClick={()=> setSelectedCategory("Anime")}>
+            <img src={"src/assets/anime.png"} alt={"Anime"} className={`catIcon`}></img>
+            <span>{"Anime"}</span>
+      </button>
+
+      
       <p>Copyright JMS {new Date().getFullYear().toString()} </p>
     </div>
   )
