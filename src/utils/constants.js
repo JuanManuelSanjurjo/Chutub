@@ -15,7 +15,6 @@
 //   ];
 
   export const categories = [
-    { name: 'search', src:     "star.png" },
     { name: 'New', src:        "star.png" },
     { name: 'Coding', src:     "code.png" },
     { name: 'ReactJS', src:    "brand-react.png" },

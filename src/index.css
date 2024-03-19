@@ -19,20 +19,22 @@ html,body,#root {
   background-color: var(--black);
   color: var(--beige);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  scrollbar-color: var(--beige)  var(--darkGrey);
+  /* scrollbar-color: var(--beige)  var(--darkGrey); */
 }
 
 ::-webkit-scrollbar {
-  width: 10px; /* Mostly for vertical scrollbars */
+  width: 10px ; /* Mostly for vertical scrollbars */
   height: 10px; /* Mostly for horizontal scrollbars */
   padding: 5px 0;
 }
 ::-webkit-scrollbar-thumb { /* Foreground */
+  width: 10px; /* Mostly for vertical scrollbars */
   background: var(--beige);
   border-radius: 15px;
   border: 2px solid var(--darkGrey);
 }
 ::-webkit-scrollbar-track { /* Background */
+  width: 5px; /* Mostly for vertical scrollbars */
   background: var(--darkGrey);
 }
 a {
